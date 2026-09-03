@@ -152,12 +152,12 @@ cargocast/
 
 | Role | Owner | Files |
 |---|---|---|
-| Data Lead | — | `data/raw/`, `data/processed/` |
-| Feature Engineer | — | `features/feature_engineering.py` |
-| ML Engineer #1 (Forecasting) | — | `models/forecasting.py`, `models/quantile_regression.py` |
-| ML Engineer #2 (NLP + Decisions) | — | `nlp/disruption_scoring.py`, `decision_engine/*` |
-| Optimization / Backend Dev | — | `backend/pipeline.py` |
-| Dashboard Dev | Viper | `dashboard/app.py` |
+| Data Lead | Archisman | `data/raw/`, `data/processed/` |
+| Feature Engineer | Tejas | `features/feature_engineering.py` |
+| ML Engineer #1 (Forecasting) | Ayush | `models/forecasting.py`, `models/quantile_regression.py` |
+| ML Engineer #2 (NLP + Decisions) | Pranjal | `nlp/disruption_scoring.py`, `decision_engine/*` |
+| Optimization / Backend Dev | Aditya | `backend/pipeline.py` |
+| Dashboard Dev | Arpita | `dashboard/app.py` |
 
 ---
 
