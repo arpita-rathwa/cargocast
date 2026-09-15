@@ -4,7 +4,23 @@
 
 Built for **SIH26006** — Ministry of Steel, Smart India Hackathon 2026
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-cargocastupdated.vercel.app-1DA1F2?style=for-the-badge&logo=vercel&logoColor=white)](https://cargocastupdated.vercel.app)
+[![Backend API](https://img.shields.io/badge/Backend%20API-cargocast--updated.onrender.com-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://cargocast-updated.onrender.com)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/License-SIH%202026%20Submission-lightgrey?style=flat-square)](#-license)
+
 > Predicting freight rates, scoring shipping disruptions, and recommending optimal vessel chartering & procurement timing for bulk cargo (iron ore, coking coal) shipped to India's East Coast ports.
+
+## 🔗 Quick Links
+
+| | |
+|---|---|
+| 🖥️ **Live Demo** | [cargocastupdated.vercel.app](https://cargocastupdated.vercel.app) |
+| ⚙️ **Backend API** | [cargocast-updated.onrender.com](https://cargocast-updated.onrender.com) |
+| 📦 **Repository** | You're here |
+
+> ⚠️ The backend is hosted on Render's free tier and may take ~30–50s to spin up on the first request after inactivity — give it a moment on cold start.
 
 ---
 
@@ -25,7 +41,7 @@ CargoCast forecasts freight rates and cargo demand, scores real-time disruption 
 - 🧭 **Explainable decision engine** — spot vs. time-charter selection, buy-now vs. wait timing
 - 🎛️ **Live scenario simulator** — stress-test fuel price shocks, port delays, demand spikes
 - 💰 **Quantified cost-savings estimator** — model strategy vs. naive baseline, in ₹
-- 📊 **Interactive Streamlit dashboard** — forecasts, recommendations, and scenario controls in one view
+- 📊 **Interactive dashboard** — forecasts, recommendations, and scenario controls in one view ([try it live](https://cargocastupdated.vercel.app))
 
 ---
 
@@ -78,7 +94,7 @@ flowchart TB
         F1[Forecast Charts + Confidence Bands]
         F2[Recommendation Panel]
         F3[Scenario Toggle Controls]
-        F4[Streamlit App]
+        F4[Web App — cargocastupdated.vercel.app]
     end
 
     A1 & A2 & A3 & A4 & A5 & A6 --> B1
@@ -112,7 +128,8 @@ flowchart TB
 | NLP | NLTK / VADER |
 | Data Storage | SQLite, pandas |
 | Decision Logic | Rule-based Python (explainable, no black box) |
-| Dashboard | Streamlit, Plotly |
+| Backend / API | FastAPI, hosted on [Render](https://cargocast-updated.onrender.com) |
+| Frontend / Dashboard | Streamlit, Plotly, hosted on [Vercel](https://cargocastupdated.vercel.app) |
 | Design Reference | Google Stitch (UI concept only) |
 | Collaboration | GitHub, Google Colab |
 
@@ -162,6 +179,12 @@ cargocast/
 ---
 
 ## 🚀 Getting Started
+
+### Option 1 — Just try it live
+No setup needed — open the hosted demo: **[cargocastupdated.vercel.app](https://cargocastupdated.vercel.app)**
+(Backend API: [cargocast-updated.onrender.com](https://cargocast-updated.onrender.com))
+
+### Option 2 — Run it locally
 
 ```bash
 # Clone the repo
